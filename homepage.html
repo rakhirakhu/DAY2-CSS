@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homein.css">
+    <title>Your Website</title>
+    <style>
+    
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .responsive-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px; 
+        }
+
+        header ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        header li {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="logo"><img src="logo2.png" alt="Logo" width="50" height="50"></li>
+                <li><a href="login.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    
+        <div class="image-container">
+            <img src="office1.jpg" alt="Office 1" class="responsive-image">
+            <img src="office3.jpg" alt="Office 3" class="responsive-image">
+            <img src="office5.jpg" alt="Office 5" class="responsive-image">
+            <img src="office6.jpg" alt="Office 6" class="responsive-image">
+            <img src="office2.jpg" alt="Office 2" class="responsive-image">
+        </div>
+    </main>
+
+    <footer>
+        &copy; Rakhi
+        <address>Infopark, Kochi</address>
+        <div class="social-icons">
+            <a href="http://www.linkedin.com"><img src="link.jpg" alt="LinkedIn" height="20"></a>
+            <a href="http://www.instagram.com"><img src="instag.jpg" alt="Instagram" height="20"></a>
+        </div>
+    </footer>
+
+</body>
+</html>
+
